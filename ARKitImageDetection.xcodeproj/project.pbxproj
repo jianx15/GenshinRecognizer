@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,6 @@
 		9CB260772AB2E230005CD917 /* beidou in Resources */ = {isa = PBXBuildFile; fileRef = 9CB260762AB2E230005CD917 /* beidou */; };
 		9CB2607F2AB406B2005CD917 /* GLTFSceneKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9CB2607E2AB406B2005CD917 /* GLTFSceneKit */; };
 		9CB260812AB40DB1005CD917 /* klee_fbx in Resources */ = {isa = PBXBuildFile; fileRef = 9CB260802AB40DB1005CD917 /* klee_fbx */; };
-		9CB260832AB41170005CD917 /* zhongli_fanart in Resources */ = {isa = PBXBuildFile; fileRef = 9CB260822AB41170005CD917 /* zhongli_fanart */; };
 		9CB260852AB41351005CD917 /* ganyu_fbx_with_textures in Resources */ = {isa = PBXBuildFile; fileRef = 9CB260842AB41351005CD917 /* ganyu_fbx_with_textures */; };
 		C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* StatusViewController.swift */; };
 		C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */; };
@@ -31,7 +30,6 @@
 		39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB260762AB2E230005CD917 /* beidou */ = {isa = PBXFileReference; lastKnownFileType = folder; path = beidou; sourceTree = "<group>"; };
 		9CB260802AB40DB1005CD917 /* klee_fbx */ = {isa = PBXFileReference; lastKnownFileType = folder; path = klee_fbx; sourceTree = "<group>"; };
-		9CB260822AB41170005CD917 /* zhongli_fanart */ = {isa = PBXFileReference; lastKnownFileType = folder; name = zhongli_fanart; path = ../../zhongli_fanart; sourceTree = "<group>"; };
 		9CB260842AB41351005CD917 /* ganyu_fbx_with_textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ganyu_fbx_with_textures; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		C17E12BC981B62B3753B451B /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
 				3929C48D1E89EC2C00E00B60 /* ViewController.swift */,
 				9CB260842AB41351005CD917 /* ganyu_fbx_with_textures */,
-				9CB260822AB41170005CD917 /* zhongli_fanart */,
 				9CB260802AB40DB1005CD917 /* klee_fbx */,
 				9CB260762AB2E230005CD917 /* beidou */,
 				C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */,
@@ -156,7 +153,6 @@
 				TargetAttributes = {
 					3929C4871E89EC2C00E00B60 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = 73TSFVFVSC;
 						LastSwiftMigration = 1140;
 						ProvisioningStyle = Automatic;
 					};
@@ -190,7 +186,6 @@
 			files = (
 				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
 				9CB260812AB40DB1005CD917 /* klee_fbx in Resources */,
-				9CB260832AB41170005CD917 /* zhongli_fanart in Resources */,
 				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
 				9CB260772AB2E230005CD917 /* beidou in Resources */,
 				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
@@ -352,7 +347,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TSFVFVSC;
+				DEVELOPMENT_TEAM = 956Y7BLKXS;
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageDetection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,7 +370,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73TSFVFVSC;
+				DEVELOPMENT_TEAM = 956Y7BLKXS;
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageDetection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
